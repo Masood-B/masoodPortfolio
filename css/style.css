@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/* Universal selector */
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root */
+:root{
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor: grey;
+    --borderColor: #443ca2;
+    font-family: 'Fjalla One', sans-serif;
+}
+/* logo */
+#logo{
+    width: 30rem
+}
